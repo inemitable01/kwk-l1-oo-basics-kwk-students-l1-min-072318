@@ -8,7 +8,9 @@ def title
   @title
   end
 def author = (author)
-end 
+  @author = author
+  end 
 
+  end 
 book = Book.new ("And Then There Were None")
 
