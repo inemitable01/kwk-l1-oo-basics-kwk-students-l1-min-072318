@@ -1,5 +1,9 @@
 # book.rb
 class Book
-end
+def initialize(title)
+  @title
+end 
 
-book = book.new ("And thn there were none")
+
+book = Book.new ("And Then There Were None")
+
