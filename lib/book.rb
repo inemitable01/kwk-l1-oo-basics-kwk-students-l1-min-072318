@@ -13,9 +13,15 @@ def author= (author)
 def author
   @author
 end 
+
 def page_count= (page_count)
   @page_count = page_count
   end 
-end 
+  def page_count
+    @page_count
+  end 
+  def genre = (genre)
+ @genre
+end
 book = Book.new ("And Then There Were None")
 
