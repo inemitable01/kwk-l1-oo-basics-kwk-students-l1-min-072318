@@ -7,6 +7,7 @@ def initialize(title)
 def title 
   @title
   end
+def author = (author)
 end 
 
 book = Book.new ("And Then There Were None")
